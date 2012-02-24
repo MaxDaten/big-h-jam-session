@@ -1,8 +1,16 @@
 
 import System.Environment
+import Graphics.Rendering.OpenGL
+import Graphics.UI.GLUT
  
 -- | 'main' runs the main program
 main :: IO ()
-main = getArgs >>= print . bigHify . head
+main =    do
+            (progname, _) <- getArgsAndInitialize
+            createWindow "Hello World"
+            displayCallback $= display
+            mainLoop
  
-bigHify s = "bigH! " ++ s
+display :: IO ()
+display = do
+  clear [ ColorBuffer ]; flush
