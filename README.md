@@ -12,12 +12,15 @@ Usefull Links
 -------------
 
 **Haskell**
+
 + http://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program
 
 **git**
+
 + http://book.git-scm.com/
 
 **Haskell + OpenGL**
+
 + http://www.haskell.org/haskellwiki/OpenGLTutorial1
 
 
