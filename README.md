@@ -1,7 +1,7 @@
 BIG H JAM SESSION
 =================
 
-*Big H Jam Session* is a project for jam-session during boring lecture.
+*Big H Jam Session* is a project for a jam-session during boring lecture.
 
 Project Info
 ------------
