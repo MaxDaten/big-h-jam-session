@@ -8,11 +8,18 @@ Project Info
 
 nearly 100% Haskell (except some bindings)
 
+Usefull Links
+-------------
+
++ http://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program
++ http://book.git-scm.com/
+
 
 Authors
 -------
 
 **MaxDaten**
+
 + https://github.com/MaxDaten
 
 Copyright and license
