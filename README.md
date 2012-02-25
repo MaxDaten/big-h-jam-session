@@ -8,6 +8,14 @@ Project Info
 
 nearly 100% Haskell (except some bindings)
 
+Building & Installation
+-----------------------
+
+* Use `cabal install` in the project root directory to build and install the binary. 
+* Run the binary from the installation directory. 
+
+Windows users need the GLUT and OpenGL binaries (.dll) placed in the installation directory or in the `system32` directory.
+
 Usefull Links
 -------------
 
