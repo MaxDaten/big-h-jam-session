@@ -30,7 +30,7 @@ Usefull Links
 **Haskell + OpenGL**
 
 + http://www.haskell.org/haskellwiki/OpenGLTutorial1
-
++ http://www.cs.hs-rm.de/~panitz/hopengl/skript.html
 
 Authors
 -------
