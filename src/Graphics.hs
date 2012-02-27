@@ -16,8 +16,8 @@ oneCube a = do
 display = do 
   clear [ColorBuffer]
   loadIdentity
-  color $ Color3 (2.3::GLfloat) (1.2::GLfloat) (1.1::GLfloat)
-  scale (0.7::GLfloat) (0.7::GLfloat) (0.7::GLfloat)
+  color $ Color3 2.3 1.2 (1.1::GLfloat)
+  scale 0.7 0.7 (0.7::GLfloat)
   oneCube (0.2::GLfloat)
   swapBuffers
 
