@@ -8,10 +8,29 @@ import Data.IORef
 oneCube a = do 
 	renderPrimitive Quads $ do
 		vertex $ Vertex3 a a a
+		vertex $ Vertex3 a a (-a)
+		vertex $ Vertex3 a (-a) (-a)
+		vertex $ Vertex3 a (-a) a
+		vertex $ Vertex3 a a a
+		vertex $ Vertex3 a a (-a)
+		vertex $ Vertex3 (-a) a (-a)
 		vertex $ Vertex3 (-a) a a
+		vertex $ Vertex3 a a a
 		vertex $ Vertex3 a (-a) a
 		vertex $ Vertex3 (-a) (-a) a
-
+		vertex $ Vertex3 (-a) a a
+		vertex $ Vertex3 (-a) a a
+		vertex $ Vertex3 (-a) a (-a)
+		vertex $ Vertex3 (-a) (-a) (-a)
+		vertex $ Vertex3 (-a) (-a) a
+		vertex $ Vertex3 a (-a) a
+		vertex $ Vertex3 a (-a) (-a)
+		vertex $ Vertex3 (-a) (-a) (-a)
+		vertex $ Vertex3 (-a) (-a) a
+		vertex $ Vertex3 a a (-a)
+		vertex $ Vertex3 a (-a) (-a)
+		vertex $ Vertex3 (-a) (-a) (-a)
+		vertex $ Vertex3 (-a) a (-a)
 
 display = do 
   clear [ColorBuffer]
