@@ -35,9 +35,15 @@ Usefull Links
 Authors
 -------
 
+### Engine Developer
 **MaxDaten**
 
 + https://github.com/MaxDaten
+
+### Logic Developer
+**christ0pher**
+
++ https://github.com/christ0pher
 
 Copyright and license
 ---------------------
